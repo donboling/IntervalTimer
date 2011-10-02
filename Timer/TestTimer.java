@@ -1,8 +1,8 @@
-// -------- Begin: TestAdvt.java ------------
+// -------- Begin: TestTimer.java ------------
 
 import java.io.*;
 import java.util.*;
-class TestAdvt
+class TestTimer
 {
     public static void main (String[] args)
     {
@@ -44,4 +44,4 @@ class TestAdvt
 
     } // end Main
 }
-// --------End: TestAdvt.java ------------
+// --------End: TestTimer.java ------------
