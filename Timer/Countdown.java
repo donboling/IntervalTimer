@@ -47,10 +47,12 @@ public class Countdown extends JApplet implements ActionListener, MouseListener 
 	// Set label properties based on those parameters
 	if (font != null)
 	    label.setFont(Font.decode(font));
-	if (foreground != null)
-	    label.setForeground(Color.decode(foreground));
-	if (background != null)
-	    label.setBackground(Color.decode(background));
+	//if (foreground != null)
+	    //label.setForeground(Color.decode(foreground));
+	    label.setForeground(Color.CYAN);
+	//if (background != null)
+	    //label.setBackground(Color.decode(background));
+	    label.setBackground(Color.MAGENTA);
 	if (imageURL != null) {
 	    // Load the image, and save it so we can release it later
 	    image = getImage(getDocumentBase(), imageURL);
